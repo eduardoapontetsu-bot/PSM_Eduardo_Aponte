@@ -196,12 +196,13 @@ export default function App() {
                                 </div>
                                     {/* AUDIO OFERTA ACADÉMICA PSM */}
                                     <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '8px', border: '1px solid #e0e0e0', minWidth: '300px' }}>
-                                        <h3 style={{ fontSize: '1.1rem', color: '#003366', marginBottom: '0.5rem' }}>Audio Informativo</h3>
+                                        <h3 style={{ fontSize: '1.1rem', color: '#003366', marginBottom: '0.5rem' }}>Audio Informativo (Carreras PSM)</h3>
                                         <audio controls style={{ width: '100%', marginTop: '1rem' }}>
-                                            <source src="/mi-audio.mp3" type="audio/mpeg" />
+                                            <source src="/mi-audio-psm.mp3" type="audio/mpeg" />
                                             Tu navegador no soporta el elemento de audio.
                                         </audio>
                                     </div>
+                            </div>
                         </section>
 
                         {/* SECCIÓN INSCRIPCIONES */}
